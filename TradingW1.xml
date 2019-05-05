@@ -2942,13 +2942,13 @@
             <entry key="periodUnit" value="Week"/>
             <entry key="dataUnitWidth" value="8.167107"/>
             <entry key="yAxisPadding0" value="0.025"/>
-            <entry key="maxPrice0" value="1.400822849594634"/>
+            <entry key="maxPrice0" value="1.43763"/>
             <entry key="theme" value="Custom theme"/>
             <entry key="periodUnitsCount" value="1"/>
             <entry key="instantChartWidgetShowSentimentIndex" value="true"/>
             <entry key="historicalTesterChart" value="false"/>
             <entry key="isMouseCursorVisible" value="0"/>
-            <entry key="minPrice0" value="1.205692849594634"/>
+            <entry key="minPrice0" value="1.2425"/>
             <entry key="kagiType" value="LINE"/>
             <entry key="candleType" value="CANDLE"/>
             <entry key="isPercentMode" value="false"/>
@@ -3299,6 +3299,58 @@
                 <map>
                   <entry key="0" value="1623704400000"/>
                   <entry key="1" value="1489957200000"/>
+                </map>
+              </node>
+            </node>
+            <node name="-706923379">
+              <map>
+                <entry key="strokeWidth" value="3.0"/>
+                <entry key="strokeJoin" value="2"/>
+                <entry key="pointsCount" value="2"/>
+                <entry key="linkedInstrument" value="GBPUSD"/>
+                <entry key="color" value="-32704"/>
+                <entry key="displayOrder" value="18"/>
+                <entry key="hiddenFromWorkspaceTree" value="false"/>
+                <entry key="type" value="POLY_LINE"/>
+                <entry key="fontStyle" value="0"/>
+                <entry key="stickToCandleTimeDisabled" value="false"/>
+                <entry key="version" value="1"/>
+                <entry key="strokeDashPhase" value="0.0"/>
+                <entry key="stickToCandlePriceDisabled" value="false"/>
+                <entry key="showLabel" value="true"/>
+                <entry key="fontName" value="SansSerif"/>
+                <entry key="instrumentName" value="GBPUSD"/>
+                <entry key="strokeCap" value="0"/>
+                <entry key="offerSide" value="BID"/>
+                <entry key="alpha" value="1.0"/>
+                <entry key="sticky" value="true"/>
+                <entry key="fontSize" value="11"/>
+                <entry key="locked" value="false"/>
+                <entry key="strokeMiterLimit" value="0.0"/>
+                <entry key="key" value="-5294976639890542934"/>
+              </map>
+              <node name="decorations">
+                <map>
+                  <entry key="Beginning" value="None"/>
+                  <entry key="End" value="FilledArrow"/>
+                </map>
+              </node>
+              <node name="periods">
+                <map>
+                  <entry key="0" value="604800000"/>
+                  <entry key="1" value="604800000"/>
+                </map>
+              </node>
+              <node name="prices">
+                <map>
+                  <entry key="0" value="1.31694"/>
+                  <entry key="1" value="1.3235730248067712"/>
+                </map>
+              </node>
+              <node name="times">
+                <map>
+                  <entry key="0" value="1556485200000"/>
+                  <entry key="1" value="1559509200000"/>
                 </map>
               </node>
             </node>
@@ -4192,7 +4244,7 @@
             <entry key="offerSideName" value="BID"/>
             <entry key="periodUnit" value="Week"/>
             <entry key="dataUnitWidth" value="8.23694"/>
-            <entry key="yAxisPadding0" value="-0.06345067018197956"/>
+            <entry key="yAxisPadding0" value="0.025"/>
             <entry key="maxPrice0" value="115.53001832276583"/>
             <entry key="theme" value="Custom theme"/>
             <entry key="periodUnitsCount" value="1"/>
@@ -11113,31 +11165,31 @@
           <map/>
           <node name="Entry_0">
             <map>
-              <entry key="Value" value="66"/>
+              <entry key="Value" value="50"/>
               <entry key="Key" value="ColumnWidth3"/>
             </map>
           </node>
           <node name="Entry_1">
             <map>
-              <entry key="Value" value="66"/>
+              <entry key="Value" value="50"/>
               <entry key="Key" value="ColumnWidth2"/>
             </map>
           </node>
           <node name="Entry_2">
             <map>
-              <entry key="Value" value="66"/>
+              <entry key="Value" value="50"/>
               <entry key="Key" value="ColumnWidth1"/>
             </map>
           </node>
           <node name="Entry_3">
             <map>
-              <entry key="Value" value="66"/>
+              <entry key="Value" value="50"/>
               <entry key="Key" value="ColumnWidth0"/>
             </map>
           </node>
           <node name="Entry_4">
             <map>
-              <entry key="Value" value="nzd"/>
+              <entry key="Value" value=""/>
               <entry key="Key" value="FilterText"/>
             </map>
           </node>
@@ -13216,7 +13268,7 @@
             <entry key="GOLDtpVal" value="100.0"/>
             <entry key="SILVERslippageVal" value="50.0"/>
             <entry key="pricesModeOn" value="1"/>
-            <entry key="lastSelectedInstrument" value="EUR/USD"/>
+            <entry key="lastSelectedInstrument" value="GBP/USD"/>
             <entry key="FX_CCYtrailingStepVal" value="10.0"/>
             <entry key="FX_CCYorderValidaty" value="10"/>
             <entry key="SILVERorderValidaty" value="10"/>
@@ -14064,7 +14116,7 @@
                     <entry key="dockableIds" value="6f4922f4-5568-361a-8cdf-4ad2299f6d23;19ca14e7-ea63-38a4-ae0e-b13d585e4c22;a5bfc9e0-7964-38dd-9eb9-5fc584cd965d;a5771bce-93e2-30c3-af7c-d9dfd0e5deaa;d67d8ab4-f4c1-3bf2-aaa3-53e27879133c;d645920e-395f-3dad-bbbb-ed0eca3fe2e0;3416a75f-4cea-3109-907c-acd8e2f2aefc;4e732ced-3463-306d-a0ca-9a15b6153677"/>
                     <entry key="position" value="Center"/>
                     <entry key="dividerLocation" value="0.0"/>
-                    <entry key="selectedIndex" value="0"/>
+                    <entry key="selectedIndex" value="1"/>
                   </map>
                 </node>
               </node>
@@ -14418,467 +14470,7 @@
         </node>
         <node name="Alerts">
           <map/>
-          <node name="1028564214">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1540999644140"/>
-              <entry key="AlerterInstrument" value="GBP/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.2786359257111475"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="1104198812">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1541446099402"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.14155"/>
-              <entry key="AlerterCondition" value="BID_LESS"/>
-            </map>
-          </node>
-          <node name="1122147497">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1541754778132"/>
-              <entry key="AlerterInstrument" value="NZD/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="0.67536"/>
-              <entry key="AlerterCondition" value="BID_LESS"/>
-            </map>
-          </node>
-          <node name="1174883757">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1542375437536"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.1347887558188656"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="1186564189">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1540999497860"/>
-              <entry key="AlerterInstrument" value="GBP/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.27712"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="1208584963">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1542278222459"/>
-              <entry key="AlerterInstrument" value="NZD/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="0.68054"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="1212142666">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1552996982684"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.1356561958286344"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="1212294121">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1542289371891"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.130323098644788"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="1321167446">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1541081278155"/>
-              <entry key="AlerterInstrument" value="USD/CAD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.30838"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="1337041775">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1542282888179"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.1315816719236824"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="1338328997">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1541164891438"/>
-              <entry key="AlerterInstrument" value="GBP/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.29855"/>
-              <entry key="AlerterCondition" value="BID_LESS"/>
-            </map>
-          </node>
-          <node name="145145463">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1542361404316"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.13536"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="1503345176">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1541097446442"/>
-              <entry key="AlerterInstrument" value="GBP/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.30047"/>
-              <entry key="AlerterCondition" value="BID_LESS"/>
-            </map>
-          </node>
-          <node name="1523543677">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1541606166917"/>
-              <entry key="AlerterInstrument" value="GBP/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.31567"/>
-              <entry key="AlerterCondition" value="BID_LESS"/>
-            </map>
-          </node>
-          <node name="1693125893">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1542040193990"/>
-              <entry key="AlerterInstrument" value="EUR/GBP"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="0.87507"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="1713739111">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1542650244670"/>
-              <entry key="AlerterInstrument" value="NZD/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="0.683992631466512"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="1722045049">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1542316672333"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.13326"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="1729788853">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1553105044649"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.13998"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="1744251841">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1553007296578"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.13481"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="1813701541">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1552929133677"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.13308"/>
-              <entry key="AlerterCondition" value="BID_LESS"/>
-            </map>
-          </node>
-          <node name="183665258">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1542378729661"/>
-              <entry key="AlerterInstrument" value="NZD/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="0.68586"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="1880834629">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1552925897959"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.13395"/>
-              <entry key="AlerterCondition" value="BID_LESS"/>
-            </map>
-          </node>
-          <node name="1902453275">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1553007898299"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.13546"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="1924116090">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1541074800592"/>
-              <entry key="AlerterInstrument" value="USD/CHF"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.0026832068250608"/>
-              <entry key="AlerterCondition" value="BID_LESS"/>
-            </map>
-          </node>
-          <node name="1940402802">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1542824219438"/>
-              <entry key="AlerterInstrument" value="USD/CHF"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="0.9945632723237358"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="2009515">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1541426325520"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.137885000353777"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="203340931">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1542384603931"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.1404259741497003"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="2042435106">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1542126944223"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.12703"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="2046823378">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1541007123682"/>
-              <entry key="AlerterInstrument" value="GBP/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.275918884058293"/>
-              <entry key="AlerterCondition" value="BID_LESS"/>
-            </map>
-          </node>
-          <node name="2103962305">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1540988323307"/>
-              <entry key="AlerterInstrument" value="GBP/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.2778027334754347"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="216927019">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1539969162583"/>
-              <entry key="AlerterInstrument" value="USD/CHF"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="0.9971899316659251"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="285450671">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1542883120386"/>
-              <entry key="AlerterInstrument" value="USD/CHF"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="0.993422126278964"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="372616141">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1552993827584"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.13591"/>
-              <entry key="AlerterCondition" value="BID_LESS"/>
-            </map>
-          </node>
-          <node name="408191524">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1552993494188"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.1358"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="413197792">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1542717333675"/>
-              <entry key="AlerterInstrument" value="USD/JPY"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="112.37015722201934"/>
-              <entry key="AlerterCondition" value="BID_LESS"/>
-            </map>
-          </node>
-          <node name="413598864">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1552927884062"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.1327632283896285"/>
-              <entry key="AlerterCondition" value="BID_LESS"/>
-            </map>
-          </node>
-          <node name="478237630">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1552917922016"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.1349654536041047"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="504968785">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1542282468656"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.1307177041399983"/>
-              <entry key="AlerterCondition" value="BID_LESS"/>
-            </map>
-          </node>
-          <node name="514589375">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1552993889814"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.13604"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="584442211">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1552900720974"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.13417"/>
-              <entry key="AlerterCondition" value="BID_LESS"/>
-            </map>
-          </node>
-          <node name="62761304">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1542825724304"/>
-              <entry key="AlerterInstrument" value="USD/CHF"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="0.9947783989891312"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="683066279">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1542319413209"/>
-              <entry key="AlerterInstrument" value="NZD/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="0.6833728381456932"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="729540919">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1552927811412"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.132772972661123"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="79928941">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1542278274861"/>
-              <entry key="AlerterInstrument" value="NZD/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="0.6807813785051327"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="815665194">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1542042467099"/>
-              <entry key="AlerterInstrument" value="EUR/GBP"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="0.87547"/>
-              <entry key="AlerterCondition" value="BID_GREATER"/>
-            </map>
-          </node>
-          <node name="827874114">
-            <map>
-              <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1542039128634"/>
-              <entry key="AlerterInstrument" value="EUR/USD"/>
-              <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.12484"/>
-              <entry key="AlerterCondition" value="BID_LESS"/>
-            </map>
-          </node>
-          <node name="829876700">
+          <node name="1071501467">
             <map>
               <entry key="AlertComment" value=""/>
               <entry key="AlerterCompletedTime" value="1542391386852"/>
@@ -14888,27 +14480,47 @@
               <entry key="AlerterCondition" value="BID_GREATER"/>
             </map>
           </node>
-          <node name="854099771">
+          <node name="1101962469">
             <map>
               <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1540994336165"/>
-              <entry key="AlerterInstrument" value="GBP/USD"/>
+              <entry key="AlerterCompletedTime" value="1542361404316"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
               <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.27593"/>
+              <entry key="AlerterPrice" value="1.13536"/>
               <entry key="AlerterCondition" value="BID_GREATER"/>
             </map>
           </node>
-          <node name="854650693">
+          <node name="1184227537">
             <map>
               <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1540985335412"/>
-              <entry key="AlerterInstrument" value="GBP/USD"/>
+              <entry key="AlerterCompletedTime" value="1552917922016"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
               <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.27701"/>
+              <entry key="AlerterPrice" value="1.1349654536041047"/>
               <entry key="AlerterCondition" value="BID_GREATER"/>
             </map>
           </node>
-          <node name="86726927">
+          <node name="1218231532">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1540988323307"/>
+              <entry key="AlerterInstrument" value="GBP/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.2778027334754347"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="12489599">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1542126944223"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.12703"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="1278634131">
             <map>
               <entry key="AlertComment" value=""/>
               <entry key="AlerterCompletedTime" value="1552917813586"/>
@@ -14918,7 +14530,337 @@
               <entry key="AlerterCondition" value="BID_GREATER"/>
             </map>
           </node>
-          <node name="948003366">
+          <node name="1296271910">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1541097446442"/>
+              <entry key="AlerterInstrument" value="GBP/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.30047"/>
+              <entry key="AlerterCondition" value="BID_LESS"/>
+            </map>
+          </node>
+          <node name="1307841943">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1552993494188"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.1358"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="1329159021">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1552927811412"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.132772972661123"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="133918993">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1541074800592"/>
+              <entry key="AlerterInstrument" value="USD/CHF"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.0026832068250608"/>
+              <entry key="AlerterCondition" value="BID_LESS"/>
+            </map>
+          </node>
+          <node name="1374202472">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1542282888179"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.1315816719236824"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="1377918955">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1540990584815"/>
+              <entry key="AlerterInstrument" value="GBP/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.27472"/>
+              <entry key="AlerterCondition" value="BID_LESS"/>
+            </map>
+          </node>
+          <node name="1400463179">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1542378729661"/>
+              <entry key="AlerterInstrument" value="NZD/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="0.68586"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="1410897911">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1542040193990"/>
+              <entry key="AlerterInstrument" value="EUR/GBP"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="0.87507"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="1508692492">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1541606166917"/>
+              <entry key="AlerterInstrument" value="GBP/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.31567"/>
+              <entry key="AlerterCondition" value="BID_LESS"/>
+            </map>
+          </node>
+          <node name="1514567740">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1552996982684"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.1356561958286344"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="1530008524">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1540999497860"/>
+              <entry key="AlerterInstrument" value="GBP/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.27712"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="1544618517">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1542384603931"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.1404259741497003"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="1567927196">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1552929133677"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.13308"/>
+              <entry key="AlerterCondition" value="BID_LESS"/>
+            </map>
+          </node>
+          <node name="1612889763">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1552993827584"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.13591"/>
+              <entry key="AlerterCondition" value="BID_LESS"/>
+            </map>
+          </node>
+          <node name="1633527705">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1541081278155"/>
+              <entry key="AlerterInstrument" value="USD/CAD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.30838"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="1642360869">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1542650244670"/>
+              <entry key="AlerterInstrument" value="NZD/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="0.683992631466512"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="1681217896">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1552900720974"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.13417"/>
+              <entry key="AlerterCondition" value="BID_LESS"/>
+            </map>
+          </node>
+          <node name="1746424781">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1542883120386"/>
+              <entry key="AlerterInstrument" value="USD/CHF"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="0.993422126278964"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="1798330795">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1552993889814"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.13604"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="187135070">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1542278222459"/>
+              <entry key="AlerterInstrument" value="NZD/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="0.68054"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="1900318363">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1542042467099"/>
+              <entry key="AlerterInstrument" value="EUR/GBP"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="0.87547"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="1941413110">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1540994336165"/>
+              <entry key="AlerterInstrument" value="GBP/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.27593"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="2079611485">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1541426325520"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.137885000353777"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="2085827695">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1552925897959"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.13395"/>
+              <entry key="AlerterCondition" value="BID_LESS"/>
+            </map>
+          </node>
+          <node name="2133527843">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1553007898299"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.13546"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="231718487">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1542825724304"/>
+              <entry key="AlerterInstrument" value="USD/CHF"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="0.9947783989891312"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="239845853">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1541446099402"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.14155"/>
+              <entry key="AlerterCondition" value="BID_LESS"/>
+            </map>
+          </node>
+          <node name="25802235">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1542278274861"/>
+              <entry key="AlerterInstrument" value="NZD/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="0.6807813785051327"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="266607663">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1553105044649"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.13998"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="291715631">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1541007123682"/>
+              <entry key="AlerterInstrument" value="GBP/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.275918884058293"/>
+              <entry key="AlerterCondition" value="BID_LESS"/>
+            </map>
+          </node>
+          <node name="366787095">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1542375437536"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.1347887558188656"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="429599095">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1542717333675"/>
+              <entry key="AlerterInstrument" value="USD/JPY"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="112.37015722201934"/>
+              <entry key="AlerterCondition" value="BID_LESS"/>
+            </map>
+          </node>
+          <node name="482942528">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1539969162583"/>
+              <entry key="AlerterInstrument" value="USD/CHF"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="0.9971899316659251"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="498999430">
             <map>
               <entry key="AlertComment" value=""/>
               <entry key="AlerterCompletedTime" value="1552998053736"/>
@@ -14928,13 +14870,123 @@
               <entry key="AlerterCondition" value="BID_GREATER"/>
             </map>
           </node>
-          <node name="961632052">
+          <node name="518124962">
             <map>
               <entry key="AlertComment" value=""/>
-              <entry key="AlerterCompletedTime" value="1540990584815"/>
+              <entry key="AlerterCompletedTime" value="1542824219438"/>
+              <entry key="AlerterInstrument" value="USD/CHF"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="0.9945632723237358"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="525571339">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1553007296578"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.13481"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="642970701">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1540985335412"/>
               <entry key="AlerterInstrument" value="GBP/USD"/>
               <entry key="AlerterStatus" value="COMPLETED"/>
-              <entry key="AlerterPrice" value="1.27472"/>
+              <entry key="AlerterPrice" value="1.27701"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="648913682">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1542319413209"/>
+              <entry key="AlerterInstrument" value="NZD/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="0.6833728381456932"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="708472161">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1542289371891"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.130323098644788"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="731909433">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1542282468656"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.1307177041399983"/>
+              <entry key="AlerterCondition" value="BID_LESS"/>
+            </map>
+          </node>
+          <node name="816305285">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1542316672333"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.13326"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="859277234">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1552927884062"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.1327632283896285"/>
+              <entry key="AlerterCondition" value="BID_LESS"/>
+            </map>
+          </node>
+          <node name="876561403">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1540999644140"/>
+              <entry key="AlerterInstrument" value="GBP/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.2786359257111475"/>
+              <entry key="AlerterCondition" value="BID_GREATER"/>
+            </map>
+          </node>
+          <node name="948355057">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1541164891438"/>
+              <entry key="AlerterInstrument" value="GBP/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.29855"/>
+              <entry key="AlerterCondition" value="BID_LESS"/>
+            </map>
+          </node>
+          <node name="983393723">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1541754778132"/>
+              <entry key="AlerterInstrument" value="NZD/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="0.67536"/>
+              <entry key="AlerterCondition" value="BID_LESS"/>
+            </map>
+          </node>
+          <node name="985274002">
+            <map>
+              <entry key="AlertComment" value=""/>
+              <entry key="AlerterCompletedTime" value="1542039128634"/>
+              <entry key="AlerterInstrument" value="EUR/USD"/>
+              <entry key="AlerterStatus" value="COMPLETED"/>
+              <entry key="AlerterPrice" value="1.12484"/>
               <entry key="AlerterCondition" value="BID_LESS"/>
             </map>
           </node>
@@ -15608,7 +15660,7 @@
               <entry key="strokeWidth" value="3.0"/>
               <entry key="strokeJoin" value="2"/>
               <entry key="strokeCap" value="0"/>
-              <entry key="color" value="-16777216"/>
+              <entry key="color" value="-32704"/>
               <entry key="alpha" value="1.0"/>
               <entry key="stickToCandleTimeDisabled" value="false"/>
               <entry key="strokeDashPhase" value="0.0"/>
