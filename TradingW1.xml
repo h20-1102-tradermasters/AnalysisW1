@@ -36,7 +36,7 @@
             <entry key="tradeBarType" value="BAR"/>
             <entry key="dataType" value="TIME_PERIOD_AGGREGATION"/>
             <entry key="nLineBreakType" value="RANGE_BAR"/>
-            <entry key="chartShiftInPx" value="634"/>
+            <entry key="chartShiftInPx" value="527"/>
             <entry key="filter" value="ALL_FLATS"/>
             <entry key="isAutoShiftActive" value="1"/>
             <entry key="instantChartWidgetX" value="0.5"/>
@@ -2939,16 +2939,16 @@
             <entry key="instrumentHidden0" value="false"/>
             <entry key="tickType" value="LINE"/>
             <entry key="offerSideName" value="BID"/>
-            <entry key="periodUnit" value="Week"/>
-            <entry key="dataUnitWidth" value="8.167107"/>
-            <entry key="yAxisPadding0" value="0.025"/>
-            <entry key="maxPrice0" value="1.43763"/>
+            <entry key="periodUnit" value="Day"/>
+            <entry key="dataUnitWidth" value="10.507751"/>
+            <entry key="yAxisPadding0" value="0.12033866426140981"/>
+            <entry key="maxPrice0" value="1.33808"/>
             <entry key="theme" value="Custom theme"/>
             <entry key="periodUnitsCount" value="1"/>
             <entry key="instantChartWidgetShowSentimentIndex" value="true"/>
             <entry key="historicalTesterChart" value="false"/>
             <entry key="isMouseCursorVisible" value="0"/>
-            <entry key="minPrice0" value="1.2425"/>
+            <entry key="minPrice0" value="1.27727"/>
             <entry key="kagiType" value="LINE"/>
             <entry key="candleType" value="CANDLE"/>
             <entry key="isPercentMode" value="false"/>
@@ -2957,7 +2957,7 @@
             <entry key="tradeBarType" value="BAR"/>
             <entry key="dataType" value="TIME_PERIOD_AGGREGATION"/>
             <entry key="nLineBreakType" value="RANGE_BAR"/>
-            <entry key="chartShiftInPx" value="530"/>
+            <entry key="chartShiftInPx" value="660"/>
             <entry key="filter" value="ALL_FLATS"/>
             <entry key="isAutoShiftActive" value="1"/>
             <entry key="instantChartWidgetX" value="0.5"/>
@@ -2965,7 +2965,7 @@
             <entry key="instantChartWidgetY" value="0.01"/>
             <entry key="isVerticalMovementEnabled" value="0"/>
             <entry key="periodTimeZone" value="EET"/>
-            <entry key="endTime" value="1556485200000"/>
+            <entry key="endTime" value="1556830800000"/>
             <entry key="instantChartWidgetShowDayRange" value="true"/>
             <entry key="instrumentName0" value="GBP/USD"/>
             <entry key="chartTreeNodeExpanded" value="true"/>
@@ -2990,54 +2990,55 @@
           </node>
           <node name="drawings">
             <map/>
-            <node name="-1186688290">
+            <node name="-1213579602">
               <map>
-                <entry key="strokeWidth" value="1.0"/>
-                <entry key="color" value="-14652922"/>
-                <entry key="displayOrder" value="9"/>
-                <entry key="fixedRightSide" value="true"/>
-                <entry key="fillAlpha" value="0.1"/>
-                <entry key="type" value="RECTANGLE"/>
-                <entry key="stickToCandleTimeDisabled" value="false"/>
-                <entry key="strokeDashPhase" value="0.0"/>
-                <entry key="lastTimeDistance" value="-9223372036854775808"/>
-                <entry key="showLabel" value="true"/>
-                <entry key="fillColor" value="-14652922"/>
-                <entry key="alpha" value="1.0"/>
-                <entry key="text" value="Demand D1"/>
-                <entry key="locked" value="false"/>
-                <entry key="key" value="7241227048364447977"/>
+                <entry key="strokeWidth" value="3.0"/>
                 <entry key="strokeJoin" value="2"/>
+                <entry key="pointsCount" value="2"/>
                 <entry key="linkedInstrument" value="GBPUSD"/>
+                <entry key="color" value="-16744320"/>
+                <entry key="displayOrder" value="25"/>
                 <entry key="hiddenFromWorkspaceTree" value="false"/>
+                <entry key="type" value="POLY_LINE"/>
                 <entry key="fontStyle" value="0"/>
+                <entry key="stickToCandleTimeDisabled" value="false"/>
                 <entry key="version" value="1"/>
+                <entry key="strokeDashPhase" value="0.0"/>
                 <entry key="stickToCandlePriceDisabled" value="false"/>
+                <entry key="showLabel" value="true"/>
                 <entry key="fontName" value="SansSerif"/>
                 <entry key="instrumentName" value="GBPUSD"/>
                 <entry key="strokeCap" value="0"/>
                 <entry key="offerSide" value="BID"/>
+                <entry key="alpha" value="1.0"/>
                 <entry key="sticky" value="true"/>
                 <entry key="fontSize" value="11"/>
+                <entry key="locked" value="false"/>
                 <entry key="strokeMiterLimit" value="0.0"/>
-                <entry key="sizeLabelEnabled" value="true"/>
+                <entry key="key" value="-4837506688926136324"/>
               </map>
+              <node name="decorations">
+                <map>
+                  <entry key="Beginning" value="None"/>
+                  <entry key="End" value="FilledArrow"/>
+                </map>
+              </node>
               <node name="periods">
                 <map>
                   <entry key="0" value="14400000"/>
-                  <entry key="1" value="86400000"/>
+                  <entry key="1" value="14400000"/>
                 </map>
               </node>
               <node name="prices">
                 <map>
-                  <entry key="0" value="1.29604"/>
-                  <entry key="1" value="1.308"/>
+                  <entry key="0" value="1.31694"/>
+                  <entry key="1" value="1.3030002709147348"/>
                 </map>
               </node>
               <node name="times">
                 <map>
-                  <entry key="0" value="1552251600000"/>
-                  <entry key="1" value="1563397200000"/>
+                  <entry key="0" value="1556902800000"/>
+                  <entry key="1" value="1557205200000"/>
                 </map>
               </node>
             </node>
@@ -3098,57 +3099,6 @@
                 </map>
               </node>
             </node>
-            <node name="-2038669513">
-              <map>
-                <entry key="strokeWidth" value="1.0"/>
-                <entry key="color" value="-14652922"/>
-                <entry key="displayOrder" value="16"/>
-                <entry key="fixedRightSide" value="true"/>
-                <entry key="fillAlpha" value="0.3"/>
-                <entry key="type" value="RECTANGLE"/>
-                <entry key="stickToCandleTimeDisabled" value="false"/>
-                <entry key="strokeDashPhase" value="0.0"/>
-                <entry key="lastTimeDistance" value="-9223372036854775808"/>
-                <entry key="showLabel" value="true"/>
-                <entry key="fillColor" value="-14652922"/>
-                <entry key="alpha" value="1.0"/>
-                <entry key="text" value="Demand H4"/>
-                <entry key="locked" value="false"/>
-                <entry key="key" value="7858926665826716960"/>
-                <entry key="strokeJoin" value="2"/>
-                <entry key="linkedInstrument" value="GBPUSD"/>
-                <entry key="hiddenFromWorkspaceTree" value="false"/>
-                <entry key="fontStyle" value="0"/>
-                <entry key="version" value="1"/>
-                <entry key="stickToCandlePriceDisabled" value="false"/>
-                <entry key="fontName" value="SansSerif"/>
-                <entry key="instrumentName" value="GBPUSD"/>
-                <entry key="strokeCap" value="0"/>
-                <entry key="offerSide" value="BID"/>
-                <entry key="sticky" value="true"/>
-                <entry key="fontSize" value="11"/>
-                <entry key="strokeMiterLimit" value="0.0"/>
-                <entry key="sizeLabelEnabled" value="true"/>
-              </map>
-              <node name="periods">
-                <map>
-                  <entry key="0" value="14400000"/>
-                  <entry key="1" value="14400000"/>
-                </map>
-              </node>
-              <node name="prices">
-                <map>
-                  <entry key="0" value="1.26688"/>
-                  <entry key="1" value="1.27251"/>
-                </map>
-              </node>
-              <node name="times">
-                <map>
-                  <entry key="0" value="1547575200000"/>
-                  <entry key="1" value="1558918800000"/>
-                </map>
-              </node>
-            </node>
             <node name="-2053190654">
               <map>
                 <entry key="strokeWidth" value="1.0"/>
@@ -3200,11 +3150,11 @@
                 </map>
               </node>
             </node>
-            <node name="-2125875551">
+            <node name="-2095424134">
               <map>
                 <entry key="strokeWidth" value="1.0"/>
-                <entry key="color" value="-14652922"/>
-                <entry key="displayOrder" value="10"/>
+                <entry key="color" value="-65536"/>
+                <entry key="displayOrder" value="20"/>
                 <entry key="fixedRightSide" value="true"/>
                 <entry key="fillAlpha" value="0.3"/>
                 <entry key="type" value="RECTANGLE"/>
@@ -3212,11 +3162,11 @@
                 <entry key="strokeDashPhase" value="0.0"/>
                 <entry key="lastTimeDistance" value="-9223372036854775808"/>
                 <entry key="showLabel" value="true"/>
-                <entry key="fillColor" value="-14652922"/>
+                <entry key="fillColor" value="-65536"/>
                 <entry key="alpha" value="1.0"/>
-                <entry key="text" value="Demand H4"/>
+                <entry key="text" value="Supply H4"/>
                 <entry key="locked" value="false"/>
-                <entry key="key" value="8497350872041635292"/>
+                <entry key="key" value="9166632231081924829"/>
                 <entry key="strokeJoin" value="2"/>
                 <entry key="linkedInstrument" value="GBPUSD"/>
                 <entry key="hiddenFromWorkspaceTree" value="false"/>
@@ -3240,14 +3190,14 @@
               </node>
               <node name="prices">
                 <map>
-                  <entry key="0" value="1.29604"/>
-                  <entry key="1" value="1.30118"/>
+                  <entry key="0" value="1.31956"/>
+                  <entry key="1" value="1.31518"/>
                 </map>
               </node>
               <node name="times">
                 <map>
-                  <entry key="0" value="1552251600000"/>
-                  <entry key="1" value="1563411600000"/>
+                  <entry key="0" value="1554267600000"/>
+                  <entry key="1" value="1561510800000"/>
                 </map>
               </node>
             </node>
@@ -3302,14 +3252,116 @@
                 </map>
               </node>
             </node>
-            <node name="-706923379">
+            <node name="-493439247">
+              <map>
+                <entry key="strokeWidth" value="1.0"/>
+                <entry key="color" value="-65536"/>
+                <entry key="displayOrder" value="20"/>
+                <entry key="fixedRightSide" value="true"/>
+                <entry key="fillAlpha" value="0.1"/>
+                <entry key="type" value="RECTANGLE"/>
+                <entry key="stickToCandleTimeDisabled" value="false"/>
+                <entry key="strokeDashPhase" value="0.0"/>
+                <entry key="lastTimeDistance" value="-9223372036854775808"/>
+                <entry key="showLabel" value="true"/>
+                <entry key="fillColor" value="-65536"/>
+                <entry key="alpha" value="1.0"/>
+                <entry key="text" value="Supply D1"/>
+                <entry key="locked" value="false"/>
+                <entry key="key" value="-6818836589856883738"/>
+                <entry key="strokeJoin" value="2"/>
+                <entry key="linkedInstrument" value="GBPUSD"/>
+                <entry key="hiddenFromWorkspaceTree" value="false"/>
+                <entry key="fontStyle" value="0"/>
+                <entry key="version" value="1"/>
+                <entry key="stickToCandlePriceDisabled" value="false"/>
+                <entry key="fontName" value="SansSerif"/>
+                <entry key="instrumentName" value="GBPUSD"/>
+                <entry key="strokeCap" value="0"/>
+                <entry key="offerSide" value="BID"/>
+                <entry key="sticky" value="true"/>
+                <entry key="fontSize" value="11"/>
+                <entry key="strokeMiterLimit" value="0.0"/>
+                <entry key="sizeLabelEnabled" value="true"/>
+              </map>
+              <node name="periods">
+                <map>
+                  <entry key="0" value="14400000"/>
+                  <entry key="1" value="86400000"/>
+                </map>
+              </node>
+              <node name="prices">
+                <map>
+                  <entry key="0" value="1.31956"/>
+                  <entry key="1" value="1.31003"/>
+                </map>
+              </node>
+              <node name="times">
+                <map>
+                  <entry key="0" value="1554267600000"/>
+                  <entry key="1" value="1561496400000"/>
+                </map>
+              </node>
+            </node>
+            <node name="-497080396">
+              <map>
+                <entry key="strokeWidth" value="1.0"/>
+                <entry key="color" value="-14652922"/>
+                <entry key="displayOrder" value="19"/>
+                <entry key="fixedRightSide" value="true"/>
+                <entry key="fillAlpha" value="0.3"/>
+                <entry key="type" value="RECTANGLE"/>
+                <entry key="stickToCandleTimeDisabled" value="false"/>
+                <entry key="strokeDashPhase" value="0.0"/>
+                <entry key="lastTimeDistance" value="-9223372036854775808"/>
+                <entry key="showLabel" value="true"/>
+                <entry key="fillColor" value="-14652922"/>
+                <entry key="alpha" value="1.0"/>
+                <entry key="text" value="Demand H4"/>
+                <entry key="locked" value="false"/>
+                <entry key="key" value="7486180896502283232"/>
+                <entry key="strokeJoin" value="2"/>
+                <entry key="linkedInstrument" value="GBPUSD"/>
+                <entry key="hiddenFromWorkspaceTree" value="false"/>
+                <entry key="fontStyle" value="0"/>
+                <entry key="version" value="1"/>
+                <entry key="stickToCandlePriceDisabled" value="false"/>
+                <entry key="fontName" value="SansSerif"/>
+                <entry key="instrumentName" value="GBPUSD"/>
+                <entry key="strokeCap" value="0"/>
+                <entry key="offerSide" value="BID"/>
+                <entry key="sticky" value="true"/>
+                <entry key="fontSize" value="11"/>
+                <entry key="strokeMiterLimit" value="0.0"/>
+                <entry key="sizeLabelEnabled" value="true"/>
+              </map>
+              <node name="periods">
+                <map>
+                  <entry key="0" value="14400000"/>
+                  <entry key="1" value="14400000"/>
+                </map>
+              </node>
+              <node name="prices">
+                <map>
+                  <entry key="0" value="1.27727"/>
+                  <entry key="1" value="1.28119"/>
+                </map>
+              </node>
+              <node name="times">
+                <map>
+                  <entry key="0" value="1550152800000"/>
+                  <entry key="1" value="1568077200000"/>
+                </map>
+              </node>
+            </node>
+            <node name="-608509766">
               <map>
                 <entry key="strokeWidth" value="3.0"/>
                 <entry key="strokeJoin" value="2"/>
                 <entry key="pointsCount" value="2"/>
                 <entry key="linkedInstrument" value="GBPUSD"/>
-                <entry key="color" value="-32704"/>
-                <entry key="displayOrder" value="18"/>
+                <entry key="color" value="-8355712"/>
+                <entry key="displayOrder" value="24"/>
                 <entry key="hiddenFromWorkspaceTree" value="false"/>
                 <entry key="type" value="POLY_LINE"/>
                 <entry key="fontStyle" value="0"/>
@@ -3327,7 +3379,7 @@
                 <entry key="fontSize" value="11"/>
                 <entry key="locked" value="false"/>
                 <entry key="strokeMiterLimit" value="0.0"/>
-                <entry key="key" value="-5294976639890542934"/>
+                <entry key="key" value="-2951575228006509645"/>
               </map>
               <node name="decorations">
                 <map>
@@ -3337,20 +3389,181 @@
               </node>
               <node name="periods">
                 <map>
-                  <entry key="0" value="604800000"/>
-                  <entry key="1" value="604800000"/>
+                  <entry key="0" value="14400000"/>
+                  <entry key="1" value="14400000"/>
                 </map>
               </node>
               <node name="prices">
                 <map>
                   <entry key="0" value="1.31694"/>
-                  <entry key="1" value="1.3235730248067712"/>
+                  <entry key="1" value="1.2958703107631981"/>
                 </map>
               </node>
               <node name="times">
                 <map>
-                  <entry key="0" value="1556485200000"/>
-                  <entry key="1" value="1559509200000"/>
+                  <entry key="0" value="1556902800000"/>
+                  <entry key="1" value="1557910800000"/>
+                </map>
+              </node>
+            </node>
+            <node name="-793819830">
+              <map>
+                <entry key="strokeWidth" value="1.0"/>
+                <entry key="color" value="-14652922"/>
+                <entry key="displayOrder" value="19"/>
+                <entry key="fixedRightSide" value="true"/>
+                <entry key="fillAlpha" value="0.1"/>
+                <entry key="type" value="RECTANGLE"/>
+                <entry key="stickToCandleTimeDisabled" value="false"/>
+                <entry key="strokeDashPhase" value="0.0"/>
+                <entry key="lastTimeDistance" value="-9223372036854775808"/>
+                <entry key="showLabel" value="true"/>
+                <entry key="fillColor" value="-14652922"/>
+                <entry key="alpha" value="1.0"/>
+                <entry key="text" value="Demand W1"/>
+                <entry key="locked" value="false"/>
+                <entry key="key" value="4395341604742129233"/>
+                <entry key="strokeJoin" value="2"/>
+                <entry key="linkedInstrument" value="GBPUSD"/>
+                <entry key="hiddenFromWorkspaceTree" value="false"/>
+                <entry key="fontStyle" value="0"/>
+                <entry key="version" value="1"/>
+                <entry key="stickToCandlePriceDisabled" value="false"/>
+                <entry key="fontName" value="SansSerif"/>
+                <entry key="instrumentName" value="GBPUSD"/>
+                <entry key="strokeCap" value="0"/>
+                <entry key="offerSide" value="BID"/>
+                <entry key="sticky" value="true"/>
+                <entry key="fontSize" value="11"/>
+                <entry key="strokeMiterLimit" value="0.0"/>
+                <entry key="sizeLabelEnabled" value="true"/>
+              </map>
+              <node name="periods">
+                <map>
+                  <entry key="0" value="14400000"/>
+                  <entry key="1" value="604800000"/>
+                </map>
+              </node>
+              <node name="prices">
+                <map>
+                  <entry key="0" value="1.27727"/>
+                  <entry key="1" value="1.29277"/>
+                </map>
+              </node>
+              <node name="strokeDashArray">
+                <map>
+                  <entry key="0" value="5.0"/>
+                  <entry key="strokeDashArrayLength" value="1"/>
+                </map>
+              </node>
+              <node name="times">
+                <map>
+                  <entry key="0" value="1550152800000"/>
+                  <entry key="1" value="1567976400000"/>
+                </map>
+              </node>
+            </node>
+            <node name="-864700676">
+              <map>
+                <entry key="strokeWidth" value="3.0"/>
+                <entry key="color" value="-15630831"/>
+                <entry key="displayOrder" value="22"/>
+                <entry key="type" value="SHORT_LINE"/>
+                <entry key="stickToCandleTimeDisabled" value="false"/>
+                <entry key="strokeDashPhase" value="0.0"/>
+                <entry key="showLabel" value="true"/>
+                <entry key="alpha" value="1.0"/>
+                <entry key="angle" value="NaN"/>
+                <entry key="locked" value="false"/>
+                <entry key="key" value="-7161504171088558932"/>
+                <entry key="strokeJoin" value="2"/>
+                <entry key="linkedInstrument" value="GBPUSD"/>
+                <entry key="hiddenFromWorkspaceTree" value="false"/>
+                <entry key="fontStyle" value="0"/>
+                <entry key="version" value="1"/>
+                <entry key="stickToCandlePriceDisabled" value="false"/>
+                <entry key="fontName" value="SansSerif"/>
+                <entry key="instrumentName" value="GBPUSD"/>
+                <entry key="strokeCap" value="0"/>
+                <entry key="offerSide" value="BID"/>
+                <entry key="sticky" value="true"/>
+                <entry key="fontSize" value="11"/>
+                <entry key="showDistance" value="true"/>
+                <entry key="strokeMiterLimit" value="0.0"/>
+              </map>
+              <node name="decorations">
+                <map>
+                  <entry key="Beginning" value="None"/>
+                  <entry key="End" value="None"/>
+                </map>
+              </node>
+              <node name="periods">
+                <map>
+                  <entry key="0" value="14400000"/>
+                  <entry key="1" value="14400000"/>
+                </map>
+              </node>
+              <node name="prices">
+                <map>
+                  <entry key="0" value="1.30725"/>
+                  <entry key="1" value="1.3174130627839662"/>
+                </map>
+              </node>
+              <node name="times">
+                <map>
+                  <entry key="0" value="1556686800000"/>
+                  <entry key="1" value="1557090000000"/>
+                </map>
+              </node>
+            </node>
+            <node name="1064089972">
+              <map>
+                <entry key="strokeWidth" value="1.0"/>
+                <entry key="color" value="-14652922"/>
+                <entry key="displayOrder" value="19"/>
+                <entry key="fixedRightSide" value="true"/>
+                <entry key="fillAlpha" value="0.1"/>
+                <entry key="type" value="RECTANGLE"/>
+                <entry key="stickToCandleTimeDisabled" value="false"/>
+                <entry key="strokeDashPhase" value="0.0"/>
+                <entry key="lastTimeDistance" value="-9223372036854775808"/>
+                <entry key="showLabel" value="true"/>
+                <entry key="fillColor" value="-14652922"/>
+                <entry key="alpha" value="1.0"/>
+                <entry key="text" value="Demand D1"/>
+                <entry key="locked" value="false"/>
+                <entry key="key" value="6668957089991489880"/>
+                <entry key="strokeJoin" value="2"/>
+                <entry key="linkedInstrument" value="GBPUSD"/>
+                <entry key="hiddenFromWorkspaceTree" value="false"/>
+                <entry key="fontStyle" value="0"/>
+                <entry key="version" value="1"/>
+                <entry key="stickToCandlePriceDisabled" value="false"/>
+                <entry key="fontName" value="SansSerif"/>
+                <entry key="instrumentName" value="GBPUSD"/>
+                <entry key="strokeCap" value="0"/>
+                <entry key="offerSide" value="BID"/>
+                <entry key="sticky" value="true"/>
+                <entry key="fontSize" value="11"/>
+                <entry key="strokeMiterLimit" value="0.0"/>
+                <entry key="sizeLabelEnabled" value="true"/>
+              </map>
+              <node name="periods">
+                <map>
+                  <entry key="0" value="14400000"/>
+                  <entry key="1" value="86400000"/>
+                </map>
+              </node>
+              <node name="prices">
+                <map>
+                  <entry key="0" value="1.27727"/>
+                  <entry key="1" value="1.2845"/>
+                </map>
+              </node>
+              <node name="times">
+                <map>
+                  <entry key="0" value="1550152800000"/>
+                  <entry key="1" value="1568062800000"/>
                 </map>
               </node>
             </node>
@@ -3462,13 +3675,68 @@
                 </map>
               </node>
             </node>
-            <node name="1671796696">
+            <node name="1329609086">
+              <map>
+                <entry key="strokeWidth" value="3.0"/>
+                <entry key="strokeJoin" value="2"/>
+                <entry key="pointsCount" value="3"/>
+                <entry key="linkedInstrument" value="GBPUSD"/>
+                <entry key="color" value="-32704"/>
+                <entry key="displayOrder" value="26"/>
+                <entry key="hiddenFromWorkspaceTree" value="false"/>
+                <entry key="type" value="POLY_LINE"/>
+                <entry key="fontStyle" value="0"/>
+                <entry key="stickToCandleTimeDisabled" value="false"/>
+                <entry key="version" value="1"/>
+                <entry key="strokeDashPhase" value="0.0"/>
+                <entry key="stickToCandlePriceDisabled" value="false"/>
+                <entry key="showLabel" value="true"/>
+                <entry key="fontName" value="SansSerif"/>
+                <entry key="instrumentName" value="GBPUSD"/>
+                <entry key="strokeCap" value="0"/>
+                <entry key="offerSide" value="BID"/>
+                <entry key="alpha" value="1.0"/>
+                <entry key="sticky" value="true"/>
+                <entry key="fontSize" value="11"/>
+                <entry key="locked" value="false"/>
+                <entry key="strokeMiterLimit" value="0.0"/>
+                <entry key="key" value="3769226074751364626"/>
+              </map>
+              <node name="decorations">
+                <map>
+                  <entry key="Beginning" value="None"/>
+                  <entry key="End" value="FilledArrow"/>
+                </map>
+              </node>
+              <node name="periods">
+                <map>
+                  <entry key="0" value="14400000"/>
+                  <entry key="1" value="14400000"/>
+                  <entry key="2" value="14400000"/>
+                </map>
+              </node>
+              <node name="prices">
+                <map>
+                  <entry key="0" value="1.31694"/>
+                  <entry key="1" value="1.3194773931685746"/>
+                  <entry key="2" value="1.3033629934396873"/>
+                </map>
+              </node>
+              <node name="times">
+                <map>
+                  <entry key="0" value="1556902800000"/>
+                  <entry key="1" value="1557118800000"/>
+                  <entry key="2" value="1557968400000"/>
+                </map>
+              </node>
+            </node>
+            <node name="1617469368">
               <map>
                 <entry key="strokeWidth" value="1.0"/>
                 <entry key="color" value="-14652922"/>
-                <entry key="displayOrder" value="8"/>
+                <entry key="displayOrder" value="21"/>
                 <entry key="fixedRightSide" value="true"/>
-                <entry key="fillAlpha" value="0.1"/>
+                <entry key="fillAlpha" value="0.3"/>
                 <entry key="type" value="RECTANGLE"/>
                 <entry key="stickToCandleTimeDisabled" value="false"/>
                 <entry key="strokeDashPhase" value="0.0"/>
@@ -3476,9 +3744,9 @@
                 <entry key="showLabel" value="true"/>
                 <entry key="fillColor" value="-14652922"/>
                 <entry key="alpha" value="1.0"/>
-                <entry key="text" value="Demand D1"/>
+                <entry key="text" value="Demand H4"/>
                 <entry key="locked" value="false"/>
-                <entry key="key" value="-2022435061810503845"/>
+                <entry key="key" value="-452679595089032036"/>
                 <entry key="strokeJoin" value="2"/>
                 <entry key="linkedInstrument" value="GBPUSD"/>
                 <entry key="hiddenFromWorkspaceTree" value="false"/>
@@ -3497,19 +3765,19 @@
               <node name="periods">
                 <map>
                   <entry key="0" value="14400000"/>
-                  <entry key="1" value="86400000"/>
+                  <entry key="1" value="14400000"/>
                 </map>
               </node>
               <node name="prices">
                 <map>
-                  <entry key="0" value="1.26688"/>
-                  <entry key="1" value="1.27889"/>
+                  <entry key="0" value="1.2988"/>
+                  <entry key="1" value="1.30302"/>
                 </map>
               </node>
               <node name="times">
                 <map>
-                  <entry key="0" value="1547575200000"/>
-                  <entry key="1" value="1558904400000"/>
+                  <entry key="0" value="1556874000000"/>
+                  <entry key="1" value="1557982800000"/>
                 </map>
               </node>
             </node>
@@ -3624,61 +3892,6 @@
                 <map>
                   <entry key="0" value="1638741600000"/>
                   <entry key="1" value="1528347600000"/>
-                </map>
-              </node>
-            </node>
-            <node name="961298218">
-              <map>
-                <entry key="strokeWidth" value="3.0"/>
-                <entry key="strokeJoin" value="2"/>
-                <entry key="pointsCount" value="3"/>
-                <entry key="linkedInstrument" value="GBPUSD"/>
-                <entry key="color" value="-16744320"/>
-                <entry key="displayOrder" value="17"/>
-                <entry key="hiddenFromWorkspaceTree" value="false"/>
-                <entry key="type" value="POLY_LINE"/>
-                <entry key="fontStyle" value="0"/>
-                <entry key="stickToCandleTimeDisabled" value="false"/>
-                <entry key="version" value="1"/>
-                <entry key="strokeDashPhase" value="0.0"/>
-                <entry key="stickToCandlePriceDisabled" value="false"/>
-                <entry key="showLabel" value="true"/>
-                <entry key="fontName" value="SansSerif"/>
-                <entry key="instrumentName" value="GBPUSD"/>
-                <entry key="strokeCap" value="0"/>
-                <entry key="offerSide" value="BID"/>
-                <entry key="alpha" value="1.0"/>
-                <entry key="sticky" value="true"/>
-                <entry key="fontSize" value="11"/>
-                <entry key="locked" value="false"/>
-                <entry key="strokeMiterLimit" value="0.0"/>
-                <entry key="key" value="-5593547616578666499"/>
-              </map>
-              <node name="decorations">
-                <map>
-                  <entry key="Beginning" value="None"/>
-                  <entry key="End" value="FilledArrow"/>
-                </map>
-              </node>
-              <node name="periods">
-                <map>
-                  <entry key="0" value="14400000"/>
-                  <entry key="1" value="14400000"/>
-                  <entry key="2" value="14400000"/>
-                </map>
-              </node>
-              <node name="prices">
-                <map>
-                  <entry key="0" value="1.32067"/>
-                  <entry key="1" value="1.3418205401020573"/>
-                  <entry key="2" value="1.308539386244453"/>
-                </map>
-              </node>
-              <node name="times">
-                <map>
-                  <entry key="0" value="1553547600000"/>
-                  <entry key="1" value="1553821200000"/>
-                  <entry key="2" value="1554670800000"/>
                 </map>
               </node>
             </node>
@@ -3866,6 +4079,62 @@
                   <map>
                     <entry key="drawingStyleValue" value="LINE"/>
                   </map>
+                </node>
+              </node>
+              <node name="indicatorDrawings">
+                <map/>
+                <node name="2055343350">
+                  <map>
+                    <entry key="strokeWidth" value="3.0"/>
+                    <entry key="color" value="-16711936"/>
+                    <entry key="displayOrder" value="23"/>
+                    <entry key="type" value="SHORT_LINE"/>
+                    <entry key="stickToCandleTimeDisabled" value="false"/>
+                    <entry key="strokeDashPhase" value="0.0"/>
+                    <entry key="showLabel" value="true"/>
+                    <entry key="alpha" value="1.0"/>
+                    <entry key="angle" value="NaN"/>
+                    <entry key="locked" value="false"/>
+                    <entry key="key" value="-689932468951384426"/>
+                    <entry key="strokeJoin" value="2"/>
+                    <entry key="linkedInstrument" value="GBPUSD"/>
+                    <entry key="hiddenFromWorkspaceTree" value="false"/>
+                    <entry key="fontStyle" value="0"/>
+                    <entry key="version" value="1"/>
+                    <entry key="stickToCandlePriceDisabled" value="false"/>
+                    <entry key="fontName" value="SansSerif"/>
+                    <entry key="instrumentName" value="GBPUSD"/>
+                    <entry key="strokeCap" value="0"/>
+                    <entry key="offerSide" value="BID"/>
+                    <entry key="sticky" value="true"/>
+                    <entry key="fontSize" value="11"/>
+                    <entry key="showDistance" value="true"/>
+                    <entry key="strokeMiterLimit" value="0.0"/>
+                  </map>
+                  <node name="decorations">
+                    <map>
+                      <entry key="Beginning" value="None"/>
+                      <entry key="End" value="None"/>
+                    </map>
+                  </node>
+                  <node name="periods">
+                    <map>
+                      <entry key="0" value="14400000"/>
+                      <entry key="1" value="14400000"/>
+                    </map>
+                  </node>
+                  <node name="prices">
+                    <map>
+                      <entry key="0" value="76.70252732545472"/>
+                      <entry key="1" value="75.9981328089214"/>
+                    </map>
+                  </node>
+                  <node name="times">
+                    <map>
+                      <entry key="0" value="1556600400000"/>
+                      <entry key="1" value="1557118800000"/>
+                    </map>
+                  </node>
                 </node>
               </node>
               <node name="indicatorLevels">
@@ -4173,12 +4442,12 @@
             <map/>
             <node name="153">
               <map>
-                <entry key="maxValue" value="74.75181957461454"/>
+                <entry key="maxValue" value="71.90971498049171"/>
               </map>
             </node>
             <node name="239">
               <map>
-                <entry key="maxValue" value="0.024947083447301566"/>
+                <entry key="maxValue" value="0.010447950142961515"/>
               </map>
             </node>
           </node>
@@ -4186,12 +4455,12 @@
             <map/>
             <node name="153">
               <map>
-                <entry key="minValue" value="27.11302171236279"/>
+                <entry key="minValue" value="33.462424853978845"/>
               </map>
             </node>
             <node name="239">
               <map>
-                <entry key="minValue" value="-0.020779129491941717"/>
+                <entry key="minValue" value="-0.005339162007145015"/>
               </map>
             </node>
           </node>
@@ -4212,7 +4481,7 @@
             <map/>
             <node name="1">
               <map>
-                <entry key="height" value="100"/>
+                <entry key="height" value="153"/>
               </map>
             </node>
           </node>
@@ -11165,25 +11434,25 @@
           <map/>
           <node name="Entry_0">
             <map>
-              <entry key="Value" value="50"/>
+              <entry key="Value" value="66"/>
               <entry key="Key" value="ColumnWidth3"/>
             </map>
           </node>
           <node name="Entry_1">
             <map>
-              <entry key="Value" value="50"/>
+              <entry key="Value" value="66"/>
               <entry key="Key" value="ColumnWidth2"/>
             </map>
           </node>
           <node name="Entry_2">
             <map>
-              <entry key="Value" value="50"/>
+              <entry key="Value" value="66"/>
               <entry key="Key" value="ColumnWidth1"/>
             </map>
           </node>
           <node name="Entry_3">
             <map>
-              <entry key="Value" value="50"/>
+              <entry key="Value" value="66"/>
               <entry key="Key" value="ColumnWidth0"/>
             </map>
           </node>
@@ -11195,7 +11464,7 @@
           </node>
           <node name="Entry_5">
             <map>
-              <entry key="Value" value="2"/>
+              <entry key="Value" value="4"/>
               <entry key="Key" value="state"/>
             </map>
           </node>
@@ -11211,7 +11480,7 @@
           <map/>
           <node name="Entry_0">
             <map>
-              <entry key="Value" value="2"/>
+              <entry key="Value" value="4"/>
               <entry key="Key" value="state"/>
             </map>
           </node>
@@ -15660,7 +15929,7 @@
               <entry key="strokeWidth" value="3.0"/>
               <entry key="strokeJoin" value="2"/>
               <entry key="strokeCap" value="0"/>
-              <entry key="color" value="-32704"/>
+              <entry key="color" value="-16744320"/>
               <entry key="alpha" value="1.0"/>
               <entry key="stickToCandleTimeDisabled" value="false"/>
               <entry key="strokeDashPhase" value="0.0"/>
@@ -15718,14 +15987,14 @@
             <map>
               <entry key="strokeWidth" value="1.0"/>
               <entry key="strokeJoin" value="2"/>
-              <entry key="color" value="-65536"/>
+              <entry key="color" value="-14652922"/>
               <entry key="fixedRightSide" value="true"/>
               <entry key="fillAlpha" value="0.3"/>
               <entry key="stickToCandleTimeDisabled" value="false"/>
               <entry key="strokeDashPhase" value="0.0"/>
               <entry key="stickToCandlePriceDisabled" value="false"/>
               <entry key="showLabel" value="true"/>
-              <entry key="fillColor" value="-65536"/>
+              <entry key="fillColor" value="-14652922"/>
               <entry key="strokeCap" value="0"/>
               <entry key="alpha" value="1.0"/>
               <entry key="strokeMiterLimit" value="0.0"/>
@@ -15737,7 +16006,7 @@
               <entry key="strokeWidth" value="3.0"/>
               <entry key="strokeJoin" value="2"/>
               <entry key="strokeCap" value="0"/>
-              <entry key="color" value="-16777216"/>
+              <entry key="color" value="-16711936"/>
               <entry key="alpha" value="1.0"/>
               <entry key="showDistance" value="true"/>
               <entry key="stickToCandleTimeDisabled" value="false"/>
@@ -15749,7 +16018,7 @@
             <node name="decorations">
               <map>
                 <entry key="Beginning" value="None"/>
-                <entry key="End" value="FilledArrow"/>
+                <entry key="End" value="None"/>
               </map>
             </node>
           </node>
